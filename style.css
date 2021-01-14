@@ -23,7 +23,7 @@ Styling for  HW-Wirefram.01
   p {background-color: #ebebeb;
 
 }
-/* Applying font-family, color, background, width, and font-size attributes to the body element*/
+/* Applying font-family, color, background, width, and font-size attributes to the body element */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -46,7 +46,7 @@ nav {
     padding: 30px;
 }
 
-/* Applying width, clear, overflow, padding-top, margin-top, float, and margin-bottom attributes to the section element*/
+/* Applying width, clear, overflow, padding-top, margin-top, float, and margin-bottom attributes to the section element */
 
 section {
     width: 495px;
@@ -63,4 +63,45 @@ section {
 article {
     color: #ebebeb;
     background: #777;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* Applying padding, margin, and color attributes to the h1 element*/
+
+h1 {
+    padding: 15px;
+    margin: 10px;
+    color: #777;
+}
+
+/* Applying padding, margin and color attributes to the p element*/
+
+p {
+    padding: 15px;
+    margin: 10px;
+    color: #777;
+}
+
+/* Applying float, padding-top, margin-top, margin-left, width, height, and margin-bottom attributes to the aside element*/
+
+aside {
+    float: right;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 445px;
+    height: 268px;
+    margin-bottom: 20px
+}
+
+/* Applying clear, background-color, overflow and padding attributes to the footer element */
+
+footer {
+    clear: both;
+    padding: 30px;
 }
