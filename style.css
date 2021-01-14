@@ -1,10 +1,28 @@
-Body {
-    background-color: grey;
-    color: grey;
+/* 
+Styling for  HW-Wirefram.01
+*/
+
+
+/* I'm using the * CSS selector to capture every element on the page and then assinging the CSS Attributes for box-sizing and text alignmnet */
+
+* {
+    box-sizing: border-box;
     text-align: center;
-    width: auto;
+    
+  }
+
+
+  /* I'm applying a background-color to the selected elements */
+
+  header,
+  nav,
+  section,
+  aside,
+  footer,
+  h1,
+  p {background-color: #ebebeb;
+
 }
 
-header {
-    background-color: whitesmoke;
-}3
+
+
