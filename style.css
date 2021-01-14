@@ -3,7 +3,7 @@ Styling for  HW-Wirefram.01
 */
 
 
-/* I'm using the * CSS selector to capture every element on the page and then assinging the CSS Attributes for box-sizing and text alignmnet */
+/* Using the * CSS selector to capture every element on the page and then assigning the CSS Attributes for box-sizing and text-align */
 
 * {
     box-sizing: border-box;
@@ -12,7 +12,7 @@ Styling for  HW-Wirefram.01
   }
 
 
-  /* I'm applying a background-color to the selected elements */
+/* Applying a background-color to the header, nav, section, aside, footer, h1, and p elements */
 
   header,
   nav,
@@ -23,6 +23,44 @@ Styling for  HW-Wirefram.01
   p {background-color: #ebebeb;
 
 }
+/* Applying font-family, color, background, width, and font-size attributes to the body element*/
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
 
+/* Applying margin-bottom and padding attributes to the header element */
 
+header {
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+/* Applying padding attributes to the nav element */
+
+nav {
+    padding: 30px;
+}
+
+/* Applying width, clear, overflow, padding-top, margin-top, float, and margin-bottom attributes to the section element*/
+
+section {
+    width: 495px;
+    clear: both;
+    overflow: auto;
+    padding-top: 30px;
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+/* Applying color, background, padding-top, padding-bottom, margin-top, margin-right, margin-left, and margin-bottom attributes to the article element*/
+
+article {
+    color: #ebebeb;
+    background: #777;
+}
